@@ -1,0 +1,8 @@
+function removeChar(str){
+  const myFavShow = str;
+  let myFavShowArray = myFavShow.split('');
+  myFavShowArray.shift();
+  myFavShowArray.pop();
+  let text = myFavShowArray.join("");
+  return text;
+};
